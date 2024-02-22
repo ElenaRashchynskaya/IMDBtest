@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestNG" parallel="methods" thread-count="1">
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+    <test name="Test">
+        <classes>
+            <class name="imdb.Tests.BornTodayTest">
+                <methods>
+                    <include name="Assert_at_least_5_celebrities_have_a_birsday_today"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

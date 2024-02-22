@@ -1,0 +1,1 @@
+{"uuid":"9be24147-c7de-4ccc-8960-397cfceb1dd1","name":"imdb.Tests.BornTodayTest.setUp","children":["659f3796-b572-410b-87ea-e1061120e848"],"description":"","befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1708628566202,"stop":1708628566221}],"afters":[],"start":1708628566200,"stop":1708628566222}
